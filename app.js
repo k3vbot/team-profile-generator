@@ -75,7 +75,7 @@ class teamBuilder {
                 } else if (res.employeeType === 'Intern') {
                     this.createIntern();
                 } else {
-                    fs.writeFile(outputPath, render(team), err => {
+                    fs.writeFile(distPath, render(team), err => {
                         if (err) throw err;
                         console.log('team.html document created!');
                     })
@@ -115,7 +115,7 @@ class teamBuilder {
 
     createIntern() {
         inquirer
-            prompt([
+            .prompt([
                 {
                     type: 'input',
                     message: 'What is the name of this intern?',
@@ -137,7 +137,7 @@ class teamBuilder {
                     name: 'internEmail'
                 }
             ]).then(res => {
-                const intern = new Intern(res.internName, res.internID, res.internEmail, resinternSchool);
+                const intern = new Intern(res.internName, res.internID, res.internEmail, res.internSchool);
                 team.push(intern);
                 this.createTeam();
             });
