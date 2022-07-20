@@ -1,9 +1,9 @@
-const inquirer = require('inquirer');
-const path = require('path');
-const fs = require('fs');
 const Manager = require('./lib/Manager.class');
 const Engineer = require('./lib/Engineer.class');
 const Intern = require('./lib/Intern.class');
+const inquirer = require('inquirer');
+const path = require('path');
+const fs = require('fs');
 
 const distPath = path.resolve(__dirname, 'dist', 'team.html');
 
