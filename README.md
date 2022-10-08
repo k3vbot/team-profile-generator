@@ -5,6 +5,7 @@
   - [The challenge](#the-challenge)
   - [User Story](#user-story)
   - [Screenshot](#screenshot)
+  - [Video Walkthrough](#video-walkthrough)
   - [Links](#links)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -23,14 +24,17 @@ As a manager
 I want to be able to put my team's information onto a webpage
 So that I can quickly access it. 
 ```
-### Screenshot + gifs
+### Video Walkthrough
+
+Tests
+[Test passed.webm](https://user-images.githubusercontent.com/102929793/194694525-6131fbb7-fb74-45a0-a17d-6cabc0b2a145.webm)
+
+Working APP.js
+[Working OOP.webm](https://user-images.githubusercontent.com/102929793/194694653-1bc173ac-0128-4d5c-bbb2-237e71d28061.webm)
 
 
-![tests](https://user-images.githubusercontent.com/102929793/180103293-7c93d0e6-a947-4794-857d-2877b4943d21.gif)
 
-![teambuilderapp](https://user-images.githubusercontent.com/102929793/180103869-671cc91f-6785-415e-9c0e-95c8a8d9f9db.gif)
-
-
+### Screenshot
 ![Screen Shot 2022-07-20 at 5 11 51 PM](https://user-images.githubusercontent.com/102929793/180103505-6015fa16-f848-4cd6-b9c6-44fbc82675fd.png)
 
 ### Links
